@@ -20,7 +20,7 @@ resource "aws_s3_bucket_object" "object" {
 }
 
 output "bucket" {
-  value = {aws_s3_bucket.b.id
+  value = aws_s3_bucket.b.id
 }
 
 output "etag" {
